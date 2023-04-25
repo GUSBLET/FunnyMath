@@ -46,6 +46,11 @@ public class FileSaver
             {
                 HardMode = Enums.HardMode.VeryEasy,
                 Score = 0
+            },
+            EquationScoreModel = new EquationScoreModel
+            {
+                HardMode = Enums.HardMode.VeryEasy,
+                Score = 0
             }
         };
     }

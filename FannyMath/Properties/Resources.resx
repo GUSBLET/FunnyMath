@@ -121,16 +121,25 @@
   <data name="tug of war" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resourses\Images\tug of war.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resourses\Images\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="TugOfWarBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resourses\Images\TugOfWarBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MathTaskBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resourses\Images\MathTaskBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="math1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resourses\Images\math1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MathTaskBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resourses\Images\MathTaskBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TugOfWarBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resourses\Images\TugOfWarBackground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resourses\Images\background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lobby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resourses\Images\lobby.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EquationIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resourses\Images\EquationIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EquationTriger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resourses\Images\EquationTriger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

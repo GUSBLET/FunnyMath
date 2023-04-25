@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.PictureBox Equation;
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.MathTask = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -35,11 +36,27 @@
             this.label2 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.scoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label3 = new System.Windows.Forms.Label();
+            Equation = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(Equation)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MathTask)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TugOfWar)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // Equation
+            // 
+            Equation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            Equation.Image = global::FannyMath.Properties.Resources.EquationIcon;
+            Equation.Location = new System.Drawing.Point(175, 66);
+            Equation.Name = "Equation";
+            Equation.Size = new System.Drawing.Size(194, 123);
+            Equation.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            Equation.TabIndex = 6;
+            Equation.TabStop = false;
+            Equation.Click += new System.EventHandler(this.OpenGame);
             // 
             // pictureBox1
             // 
@@ -76,7 +93,7 @@
             // TugOfWar
             // 
             this.TugOfWar.Image = global::FannyMath.Properties.Resources.tug_of_war;
-            this.TugOfWar.Location = new System.Drawing.Point(748, 364);
+            this.TugOfWar.Location = new System.Drawing.Point(622, 364);
             this.TugOfWar.Name = "TugOfWar";
             this.TugOfWar.Size = new System.Drawing.Size(156, 164);
             this.TugOfWar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -87,7 +104,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(741, 508);
+            this.label2.Location = new System.Drawing.Point(615, 508);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(163, 20);
             this.label2.TabIndex = 4;
@@ -98,7 +115,8 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.saveToolStripMenuItem});
+            this.saveToolStripMenuItem,
+            this.scoresToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(965, 28);
@@ -112,11 +130,30 @@
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
+            // scoresToolStripMenuItem
+            // 
+            this.scoresToolStripMenuItem.Name = "scoresToolStripMenuItem";
+            this.scoresToolStripMenuItem.Size = new System.Drawing.Size(66, 24);
+            this.scoresToolStripMenuItem.Text = "Scores";
+            this.scoresToolStripMenuItem.Click += new System.EventHandler(this.scoresToolStripMenuItem_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(235, 66);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(72, 20);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Рівняння";
+            this.label3.Click += new System.EventHandler(this.OpenGame);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(965, 552);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(Equation);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.TugOfWar);
             this.Controls.Add(this.label1);
@@ -126,6 +163,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(Equation)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MathTask)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TugOfWar)).EndInit();
@@ -145,5 +183,7 @@
         private Label label2;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem saveToolStripMenuItem;
+        private Label label3;
+        private ToolStripMenuItem scoresToolStripMenuItem;
     }
 }

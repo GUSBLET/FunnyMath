@@ -2,8 +2,7 @@
 
 namespace FannyMath.Models;
 
-public class TugOfWarScore 
+public class TugOfWarScore : BaseModel
 {
-    public int Score { get; set; }
-    public HardMode HardMode { get; set; }
+    
 }
