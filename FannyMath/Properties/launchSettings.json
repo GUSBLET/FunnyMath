@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FannyMath": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
