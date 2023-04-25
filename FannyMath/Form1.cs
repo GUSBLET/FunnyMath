@@ -49,7 +49,13 @@ namespace FannyMath
                         _scoreOfUser.MathTaskScore = mathTaskWindow.GetResult();
                     }
                     break;
+                case "Equation":
+                    EquationWindow equationTaskWindow = new(_scoreOfUser.EquationScoreModel);
+                    if (equationTaskWindow.ShowDialog() == DialogResult.OK)
+                    {
 
+                    }
+                    break;
                 default:
                     break;
             }
@@ -64,6 +70,12 @@ namespace FannyMath
         {
             _fileSaver.SaveResult(_scoreOfUser);
             MessageBox.Show("Score was saved");
+        }
+
+        private void scoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ModalWindow modalWindow = new(_scoreOfUser);
+            modalWindow.ShowDialog();
         }
     }
 }

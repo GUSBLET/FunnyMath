@@ -2,8 +2,6 @@
 
 namespace FannyMath.Models;
 
-public class MathTaskScore 
+public class MathTaskScore : BaseModel
 {
-    public int Score { get; set; }
-    public HardMode HardMode { get; set; }
 }
