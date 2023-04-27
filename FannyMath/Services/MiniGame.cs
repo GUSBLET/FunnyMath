@@ -1,21 +1,17 @@
 ﻿using FannyMath.Enums;
+using FannyMath.Models;
 
 namespace FannyMath.Services;
 
 public abstract class MiniGame
 {
-    protected virtual void SetHardMode(HardMode mode)
+    protected virtual void SetHardMode()
     {
-        switch (mode)
-        {
-            default:
-                break;
-        }
     }
 
     public virtual bool ChangeHardMode(int score)
     {
-        if (score <= 5)
+        if (score == 5)
             return true;
         else if (score <= 10)
             return true;

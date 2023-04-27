@@ -181,6 +181,7 @@
             this.Controls.Add(this.Num2);
             this.Controls.Add(this.Num1);
             this.Controls.Add(this.pictureBox1);
+            this.MaximumSize = new System.Drawing.Size(818, 497);
             this.Name = "MathTaskWindow";
             this.Text = "MathTaskWindow";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
