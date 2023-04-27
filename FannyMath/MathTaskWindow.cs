@@ -1,14 +1,5 @@
 ﻿using FannyMath.Models;
 using FannyMath.Services;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace FannyMath
 {
@@ -28,6 +19,7 @@ namespace FannyMath
             
             return _mathTaskScore;
         }
+
         public MathTaskWindow(MathTaskScore mathTaskScore)
         {
             InitializeComponent();

@@ -53,7 +53,7 @@
             this.pictureBox1.Image = global::FannyMath.Properties.Resources.lobby;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(812, 468);
+            this.pictureBox1.Size = new System.Drawing.Size(670, 509);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
@@ -65,7 +65,7 @@
             this.label9.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.Location = new System.Drawing.Point(216, 301);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(362, 46);
+            this.label9.Size = new System.Drawing.Size(354, 45);
             this.label9.TabIndex = 27;
             this.label9.Text = "Перетягування канату";
             // 
@@ -75,7 +75,7 @@
             this.label8.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.Location = new System.Drawing.Point(294, 168);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(159, 46);
+            this.label8.Size = new System.Drawing.Size(154, 45);
             this.label8.TabIndex = 26;
             this.label8.Text = "Рівняння";
             // 
@@ -145,7 +145,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(216, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(341, 46);
+            this.label1.Size = new System.Drawing.Size(332, 45);
             this.label1.TabIndex = 19;
             this.label1.Text = "Математичні вирази";
             // 
@@ -213,7 +213,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(812, 468);
+            this.ClientSize = new System.Drawing.Size(670, 509);
             this.Controls.Add(this.TurOfWarMode);
             this.Controls.Add(this.EquationMode);
             this.Controls.Add(this.MathMode);
@@ -230,6 +230,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.MaximumSize = new System.Drawing.Size(688, 556);
             this.Name = "ModalWindow";
             this.Text = "ModalWindow";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
