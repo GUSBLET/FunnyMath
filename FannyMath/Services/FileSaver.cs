@@ -19,6 +19,16 @@ public class FileSaver
         }
     }
 
+    public bool DeleteFile()
+    {
+        if (File.Exists("score.json"))
+        {
+            File.Delete("score.json");
+            return true;
+        }
+        return false;
+    }
+
     public ScoreOfUser ReadScore()
     {
         if (File.Exists("score.json"))

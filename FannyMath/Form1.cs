@@ -42,7 +42,6 @@ namespace FannyMath
                         _scoreOfUser.TugOfWarScore = tugOfWarWindow.GetResult();
                     }
                     break;
-
                 case "MathTask":
                     MathTaskWindow mathTaskWindow = new MathTaskWindow(_scoreOfUser.MathTaskScore);
                     if(mathTaskWindow.ShowDialog() == DialogResult.OK)
@@ -82,6 +81,18 @@ namespace FannyMath
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             _fileSaver.SaveResult(_scoreOfUser);
+        }
+
+        private void resetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (_fileSaver.DeleteFile())
+            {
+                MessageBox.Show("Success");
+                _scoreOfUser = _fileSaver.EmptyObjectGeneration();
+            }
+            else
+                MessageBox.Show("Error");
+
         }
     }
 }
